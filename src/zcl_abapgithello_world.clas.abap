@@ -7,7 +7,8 @@ CLASS zcl_abapgithello_world DEFINITION
     METHODS main.
   PROTECTED SECTION.
   PRIVATE SECTION.
-    METHODS main_01.
+    METHODS feature_01.
+    METHODS feature_01_01.
 ENDCLASS.
 
 
@@ -17,10 +18,19 @@ CLASS zcl_abapgithello_world IMPLEMENTATION.
     WRITE: 'zcl_abapgithello_world'.
     WRITE: 'main'.
     WRITE: 'test'.
+
+    feature_01( ).
   ENDMETHOD.
 
-  METHOD main_01.
-    WRITE: 'main_01'.
+  METHOD feature_01.
+    WRITE: 'zcl_abapgithello_world'.
+    WRITE: 'feature_01'.
+    WRITE: 'test'.
+    feature_01_01( ).
+  ENDMETHOD.
+
+  METHOD feature_01_01.
+
   ENDMETHOD.
 
 ENDCLASS.

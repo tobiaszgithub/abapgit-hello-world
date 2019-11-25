@@ -8,6 +8,7 @@ CLASS zcl_abapgithello_world DEFINITION
   PROTECTED SECTION.
   PRIVATE SECTION.
     METHODS feature_02.
+    METHODS feature_02_02.
 ENDCLASS.
 
 
@@ -23,6 +24,12 @@ CLASS zcl_abapgithello_world IMPLEMENTATION.
   METHOD feature_02.
     WRITE: 'zcl_abapgithello_world'.
     WRITE: 'feature_02'.
+    WRITE: 'test'.
+  ENDMETHOD.
+
+  METHOD feature_02_02.
+    WRITE: 'zcl_abapgithello_world'.
+    WRITE: 'feature_02_02'.
     WRITE: 'test'.
   ENDMETHOD.
 

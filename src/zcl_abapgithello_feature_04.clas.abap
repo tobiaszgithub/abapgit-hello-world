@@ -1,0 +1,19 @@
+CLASS zcl_abapgithello_feature_04 DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+    METHODS featureu_04.
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS zcl_abapgithello_feature_04 IMPLEMENTATION.
+  METHOD featureu_04.
+
+  ENDMETHOD.
+
+ENDCLASS.

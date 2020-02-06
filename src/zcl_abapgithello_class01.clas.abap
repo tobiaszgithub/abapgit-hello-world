@@ -4,6 +4,8 @@ CLASS zcl_abapgithello_class01 DEFINITION
   CREATE PUBLIC .
 
   PUBLIC SECTION.
+    METHODS method1.
+
   PROTECTED SECTION.
   PRIVATE SECTION.
 ENDCLASS.
@@ -11,4 +13,9 @@ ENDCLASS.
 
 
 CLASS zcl_abapgithello_class01 IMPLEMENTATION.
+  METHOD method1.
+    DATA: lv_test1 TYPE string.
+    WRITE: 'test'.
+  ENDMETHOD.
+
 ENDCLASS.

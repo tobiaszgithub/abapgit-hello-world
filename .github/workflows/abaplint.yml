@@ -3,10 +3,8 @@ name: CI
 on: [push]
 
 jobs:
-  build:
-
+  abaplint:
     runs-on: ubuntu-latest
-
     steps:
     - name: abaplint
       uses: abaplint/actions-abaplint@master

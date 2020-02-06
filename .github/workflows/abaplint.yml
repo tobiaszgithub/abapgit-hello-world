@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: abaplint
-      uses: abaplint/actions-abaplint@master
+      uses: tobiaszgithub/actions-abaplint@master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  

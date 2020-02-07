@@ -6,6 +6,7 @@ jobs:
   abaplint:
     runs-on: ubuntu-latest
     steps:
+    - uses: actions/checkout@v2
     - name: abaplint
       uses: tobiaszgithub/actions-abaplint@master
       env:

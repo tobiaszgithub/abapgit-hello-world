@@ -19,7 +19,7 @@ CLASS zcl_abapgithello_feature_03 IMPLEMENTATION.
   ENDMETHOD.
 
   METHOD main_01.
-
+    write: 'main_01'.
   ENDMETHOD.
 
 ENDCLASS.

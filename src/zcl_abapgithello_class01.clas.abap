@@ -16,6 +16,7 @@ CLASS zcl_abapgithello_class01 IMPLEMENTATION.
   METHOD method1.
     DATA: lv_test1 TYPE string.
     WRITE: 'test'.
+    WRITE: 'test2'.
   ENDMETHOD.
 
 ENDCLASS.
